@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Travel </title>
+  
+ <style>
+#topbar { 
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: rgb(143, 101, 101);
+    font-size: 20px;
+    height: 40px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    color:transparent;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.body{
+    margin: 0;
+
+}
+.topbar-item{
+    display: inline;
+    padding: 100px;
+    
+}
+.topbar-link{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    padding-top: 250px;
+    font-size: 70px;
+    width:100%
+    
+}
+.video-place{
+    text-align: center;
+    
+}
+#image-container{
+    width: 100%;
+    background-color:rgb(143, 101, 101);
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0;
+    height: 390px;
+    
+}
+.image{
+    width:350px;
+    height: 300px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid rgb(128, 123, 123) ;
+}
+.image-item{
+    float:left;
+    width: 33.333%;
+    background-color:rgb(143, 101, 101) ;
+    
+}
+#travel-header{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(100, 62, 62);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image-description{
+
+    width: 33.333%;
+    font-size: 20px;
+    color: rgb(143, 101, 101) ;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 315px;
+    }
+    #footer-container{
+        background-color: rgb(143, 101, 101);
+        padding: 100px;
+    }
+    .footer-description{
+        font-size: 16px;
+        text-align: left;
+        color: white;
+        width: 100%;
+    }
+ </style>
+
+</head>
+
+<body class="body">
+<div>
+    <ul id="topbar">
+        <li class="topbar-item" type="none"><a href="/index.html" class="topbar-link"> TRIPS</a> </li>
+        <li class="topbar-item" type="none"><a href="/travel-about.html" class="topbar-link"> ABOUT </a></li>
+        <li class="topbar-item" type="none"><a href="/travel-contact.html" class="topbar-link"> CONTACT </a></li>
+    </ul>
+</div>
+
+<div class="video-place">
+    <h1 class="header">Where are we going this time ?</h1>
+    <video autoplay width="100%">
+    <source src="/images/Road - 84970.mp4" type="video/mp4">
+</video>
+</div>
+
+<div id="travel-header">
+    <h1>
+        TRAVEL DIARY
+    </h1>
+</div>
+<div id="image-container">
+    <div class="image-item"> <a href="travel-lakes.html">
+        <p class="image-description" type="none"> MOUNTAINS </p> 
+        <img src="/images/lake-g6203a3324_1920.jpg" alt="jezioro" class="image">
+    </a>
+    </div>
+    <div class="image-item"> <a href="travel-lakes.html">
+        <p class="image-description" type="none"> BEACHES </p>
+        <img src="/images/beach-g778a40514_1920.jpg" alt="plaza" class="image">
+    </a>
+    </div>
+    <div class="image-item"> <a href="travel-lakes.html"> 
+        <p class="image-description" type="none" > LAKES </p> 
+        <img src="/images/bicycle-g31be08c1c_1920.jpg" alt="rower" class="image"> 
+    </a>
+    </div>   
+</div>
+<footer id="footer-container">
+    <p class="footer-description"> &copy Copywright, all right reserved.</p>
+</footer>
+</body>

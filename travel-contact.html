@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Travel </title>
+  
+ <style>
+#topbar { 
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: rgb(143, 101, 101);
+    font-size: 20px;
+    height: 40px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    color:transparent;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.body{
+    margin: 0;
+    background-color: rgb(243, 243, 243);
+
+}
+.topbar-item{
+    display: inline;
+    padding: 100px;
+    
+}
+.topbar-link{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    padding-top: 250px;
+    font-size: 70px;
+    width:100%
+    
+}
+.video-place{
+    text-align: center;
+    
+}
+#image-container{
+    width: 100%;
+    background-color:rgb(143, 101, 101);
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0;
+    height: 390px;
+    
+}
+.image{
+    width:350px;
+    height: 300px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid rgb(128, 123, 123) ;
+}
+.image-item{
+    float:left;
+    width: 33.333%;
+    background-color:rgb(143, 101, 101) ;
+    
+}
+#travel-header{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(100, 62, 62);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image-description{
+
+    width: 33.333%;
+    font-size: 20px;
+    color: rgb(143, 101, 101) ;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 315px;
+    }
+    .about-paragraph{
+        text-align:justify;
+        color: rgb(97, 70, 70);
+        font-size: 18px;
+        position: absolute;
+        padding-top: 40px;
+        padding-left: 90px;
+        width: 50%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .lorem-container{
+        position: relative;
+    }
+    .me-image{
+        width: 50%;
+        float: right;
+        background-color: blanchedalmond;
+    }
+    #form-container{
+        background-color: white;
+        text-align: center;
+        padding: 40px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border: 1px solid rgb(223, 223, 223);
+        height: 420px;
+
+        
+    }
+    .input{
+        width: 85%;
+        font-size: 18px;
+        padding: 15px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1.5px solid rgb(224, 212, 212);
+        color: rgb(214, 214, 214);
+    
+    }
+    .input-button{
+        background-color: rgb(110, 77, 77);
+        font-size: 16px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          padding-top: 12px;
+          padding-bottom: 12px;
+          padding-right: 24px;
+          padding-left: 24px;
+        border: none;
+        color: white;
+    }
+    .login{
+        text-align: center;
+        color: rgb(94, 80, 72);
+        font-size: 26px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #button-container{
+        padding: 50px;
+    }
+ </style>
+
+</head>
+
+<body class="body">
+    <div>
+    <ul id="topbar">
+        <li class="topbar-item" type="none"><a href="/index.html" class="topbar-link"> TRIPS</a> </li>
+        <li class="topbar-item" type="none"><a href="/travel-about.html" class="topbar-link"> ABOUT </a></li>
+        <li class="topbar-item" type="none"><a href="/travel-contact.html" class="topbar-link"> CONTACT </a></li>
+    </ul>
+</div>
+
+<div>
+
+    <form id="form-container">
+       <p class="login"> LOGIN</p>  <br>
+        <input type="text" name="Username" placeholder="Username " class="input"
+        required>
+        <br>
+        <input type="email" name="email" placeholder="Email" class="input"
+        required>
+        <br>
+        <input type="password" name="password" placeholder="Password" class="input"
+        required>
+        <br>
+        <input type="password" name="confrimpass" placeholder="Confirm Password" class="input"
+        required>
+       <br>
+       <div id="button-container">
+        <input type="submit" value="get in" class="input-button">
+    </div>
+    </form>
+</div>
+</body>
